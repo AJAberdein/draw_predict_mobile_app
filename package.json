@@ -9,7 +9,7 @@
   "dependencies": {
     "@terrylinla/react-native-sketch-canvas": "^0.8.0",
     "react": "16.8.3",
-    "react-native": "0.59.9"
+    "react-native": "^0.59.9"
   },
   "devDependencies": {
     "@babel/core": "7.4.5",
@@ -21,5 +21,10 @@
   },
   "jest": {
     "preset": "react-native"
+  },
+  "rnpm": {
+    "assets": [
+      "./components/fonts/"
+    ]
   }
 }
